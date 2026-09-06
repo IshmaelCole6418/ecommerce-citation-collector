@@ -1,0 +1,7 @@
+{
+  "name": "ecommerce-citation-collector",
+  "private": true,
+  "type": "module",
+  "scripts": {"collect": "node --experimental-strip-types src/collect.ts", "test": "node --experimental-strip-types --test src/citation.test.ts"},
+  "dependencies": {"openai": "^4.104.0", "zod": "^3.23.8"}
+}
